@@ -4,6 +4,15 @@
 
 This project implements a double-entry ledger system with strict ACID guarantees, idempotent transaction handling, row-level concurrency control, and risk limit enforcement.The goal of this system is to simulate how internal financial infrastructure behaves in banking, payments, and capital markets systems.The system prioritizes correctness, consistency, and auditability over feature breadth.
 
+## Tech Stack
+
+    Node.js
+    Express.js
+    PostgreSQL
+    ACID Transactions
+    Serializable Isolation
+    Double-entry Accounting
+
 ## Core Financial Invariants
 
     This system enforces the following non-negotiable financial guarantees:
